@@ -1,0 +1,23 @@
+.{
+	padding: 100px;
+	margin: 0;
+	text-decoration: none;
+}
+
+.gambar{
+	width: 500px;
+	border-top: red;
+}
+
+
+
+.footer{
+	background-color: #20639b;
+	padding: 20px;
+}
+
+.footer .copy{
+	color: red;
+	text-align: center;
+	font-size: 15px;
+}
