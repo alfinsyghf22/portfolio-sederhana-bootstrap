@@ -25,16 +25,24 @@
     
 
     <!-- navbar -->
-<nav class="navbar navbar-light bg-primary">
-  <div class="container">
-<a class="navbar-brand" style="color: salmon">Dinas Komunikasi Informatika dan Statistik Kota Cirebon</a>
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0"  type="submit" style="background-color: yellow">Search</button>
-  </form>
-</div>
+    <nav class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-primary">
+      <div class="container-fluid">
+  <a class="navbar-brand" href="#">Dinas Komunikasi Informatika Dan Statistik</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav text-right">
+        <a class="nav-link active" href="#tentang">Tentang <span class="sr-only"></span></a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
 </nav>
+<!-- end nav -->
 <br>
+<div class="Home" style="padding-top: 100px;">
 <div class="jumbotron jumbotron-fluid">
   <div class="container text-center">
   <img src="gopin.jpg" width="300px" class="rounded-circle">
@@ -42,22 +50,21 @@
     <h4 class="display-8">A HUMAN | STUDENT | SANTRI</h4>
     <br>
     <br>
-    <h1>Tentang Saya</h1>
+    <h1 class="tentang" id="tentang" style="padding-top: 150px">Tentang Saya</h1>
     <div class="row">
     <div class="col">
         <p>Halo,selamat datang ditampilan utama website ini. Saya adalah Muhammad Alfin Syaghaf selaku admin website ini, saya berasal dari Jakarta dan sekarang menetap di Cirebon Jawa Barat. Website ini menyediakan berbagai informasi tentang kepemerintahan, info kota Cirebon
     </div>
     <div class="col">
-      <p>pelayanan gawat darurat, informasi kepegawaian, kepengusuran, jasa pembuatan aplikasi. Untuk informasi lebih lanjut hubungi call center yang ada dibawah ini ya.
+      <p>pelayanan gawat darurat, informasi kepegawaian, kepengusuran, jasa pembuatan aplikasi. Pewujudan gerakan Smart City untuk wilayah 3 Jawa Barat yang terdiri dari Cirebon, Indramayu, Kuningan, dan Majalengka demi terwujudnya wilayah 3 Jawa Barat akan lebih maju dan berkembang untuk kedepannya
     </div>
   </div>
       </div>
     </div>
-  <br>
 <div class="container">
   <div class="row">
     <div class="col text-center">
-      <h1>Portfolio</h1>
+      <h1 class="portfolio" id="portfolio" style="padding-top: 150px">Portfolio</h1>
     </div>
 </div>
 
@@ -91,36 +98,37 @@
 </div>
 </div>
 </div>
-
+</div>
+<!-- end home -->
 <section class="contact" id="contact">
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <h2> Contact</h2>
+        <h2 class="contact" style="padding-top: 150px;"> Contact</h2>
     </div>
     <div class= "row">
       <div class="col">
         <form>
   <div class="form-row">
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-8">
       <label for="inputEmail4" style="color: #20639b">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" style="border-color: #20639b">
+      <input type="email" class="form-control" id="inputEmail4" placeholder="@contoh" style="border-color: #20639b">
     </div>
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-8">
       <label for="inputPassword4" style="color: #20639b">Password</label>
       <input type="password" class="form-control" id="inputPassword4" style="border-color: #20639b">
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-8">
     <label for="inputAddress" style="color: #20639b">Alamat</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" style="border-color: #20639b"style="border-color: #20639b">
   </div>
   <div class="form-row">
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-8">
       <label for="inputCity" style="color: #20639b">City</label>
       <input type="text" class="form-control" id="inputCity" style="border-color: #20639b">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-8">
       <label for="inputState" style="color: #20639b">Negara</label>
       <select id="inputState" class="form-control" style="border-color: #20639b">
         <option selected>Choose...</option>
