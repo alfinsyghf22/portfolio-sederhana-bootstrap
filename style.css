@@ -1,7 +1,27 @@
-.{
-	padding: 100px;
-	margin: 0;
-	text-decoration: none;
+html{
+	position: relative;
+}
+
+body{
+	padding-top: 30px;
+}
+
+.jumbotron{
+	background-image: url(3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: o -100px;
+	color: white;
+}
+
+.jumbotron img{
+	width: 300px;
+	border: 5px solid white; 
+	margin-top: 50px;
+}
+
+.home{
+	padding-top: 50px;
 }
 
 .gambar{
